@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mini Project: Accordion Menu · jQuery Assignment 6</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css"></head><body>
+<header><nav><span class="brand">jQuery A6</span><ul><li class="nav-item"><a class="" href="index.html">Setup & Selectors</a></li><li class="nav-item"><a class="" href="effects.html">Effects</a></li><li class="nav-item"><a class="" href="dom.html">DOM Manipulation</a></li><li class="nav-item"><a class="" href="animations.html">Animations</a></li><li class="nav-item"><a class="active" href="project.html">Mini Project</a></li></ul></nav></header>
+<main><h1>Mini Project: Accordion Menu</h1>
+
+<p>Click a heading to open its section. Only one stays open at a time.</p>
+<div id="accordion">
+<div class="acc-item"><button class="acc-head" aria-expanded="false">What is jQuery?</button><div class="acc-body"><p>A JavaScript library that shortens DOM selection, events, effects and AJAX into a few readable calls.</p></div></div>
+<div class="acc-item"><button class="acc-head" aria-expanded="false">Why use selectors?</button><div class="acc-body"><p>They use the same syntax as CSS, so <code>$("#id")</code>, <code>$(".class")</code> and <code>$("tag")</code> are quick to learn.</p></div></div>
+<div class="acc-item"><button class="acc-head" aria-expanded="false">How do animations work?</button><div class="acc-body"><p><code>.animate()</code> changes numeric CSS properties over time, and calls chained on one element run in a queue.</p></div></div>
+<div class="acc-item"><button class="acc-head" aria-expanded="false">What does slideToggle do?</button><div class="acc-body"><p>It slides an element open if it is hidden and closed if it is visible.</p></div></div>
+</div>
+<div class="row"><button id="open-all">Open all</button><button id="close-all">Close all</button></div>
+</main>
+<footer>Assignment #6 · Tolegen Zhassulan · SE-2526</footer>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="js/project.js"></script></body></html>
