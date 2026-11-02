@@ -14,11 +14,6 @@ A multi-page site that practises jQuery 3.7.1 (loaded from the official CDN). Th
 
 ## Run locally
 Open `index.html` in a browser (internet needed for the CDN, fonts and sample photos).
-
-## Deploy (GitHub Pages)
-1. Push the files to a GitHub repository.
-2. Settings → Pages → Source: *Deploy from a branch* → `main` / `(root)`.
-3. Open `https://<username>.github.io/<repo>/`.
-
+https://zhhass.github.io/Webassignmentt/index.html
 ## Structure
 `css/style.css` shared styles · `js/*.js` one script per page.
